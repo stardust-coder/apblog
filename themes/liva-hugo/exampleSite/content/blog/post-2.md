@@ -20,7 +20,7 @@ tags:
   - "New"
 
 # post type
-type: "featured"
+type: "post"
 ---
 
 # Heading 1
