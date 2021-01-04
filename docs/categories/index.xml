@@ -6,31 +6,13 @@
     <description>Recent content in Categories on AP BLOG</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Tue, 29 Oct 2019 10:07:47 +0600</lastBuildDate><atom:link href="https://stardust-coder.github.io/apblog/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 04 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://stardust-coder.github.io/apblog/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Android And Gaming</title>
-      <link>https://stardust-coder.github.io/apblog/categories/android-and-gaming/</link>
-      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
+      <title>Web Design</title>
+      <link>https://stardust-coder.github.io/apblog/categories/web-design/</link>
+      <pubDate>Mon, 04 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://stardust-coder.github.io/apblog/categories/android-and-gaming/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Go Language</title>
-      <link>https://stardust-coder.github.io/apblog/categories/go-language/</link>
-      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
-      
-      <guid>https://stardust-coder.github.io/apblog/categories/go-language/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>HTML</title>
-      <link>https://stardust-coder.github.io/apblog/categories/html/</link>
-      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
-      
-      <guid>https://stardust-coder.github.io/apblog/categories/html/</guid>
+      <guid>https://stardust-coder.github.io/apblog/categories/web-design/</guid>
       <description></description>
     </item>
     
@@ -40,33 +22,6 @@
       <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
       
       <guid>https://stardust-coder.github.io/apblog/categories/html-css/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Programming Language</title>
-      <link>https://stardust-coder.github.io/apblog/categories/programming-language/</link>
-      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
-      
-      <guid>https://stardust-coder.github.io/apblog/categories/programming-language/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Python</title>
-      <link>https://stardust-coder.github.io/apblog/categories/python/</link>
-      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
-      
-      <guid>https://stardust-coder.github.io/apblog/categories/python/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Web Design</title>
-      <link>https://stardust-coder.github.io/apblog/categories/web-design/</link>
-      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
-      
-      <guid>https://stardust-coder.github.io/apblog/categories/web-design/</guid>
       <description></description>
     </item>
     
