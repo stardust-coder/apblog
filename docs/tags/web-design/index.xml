@@ -16,5 +16,17 @@
       <description>参考にしたサイト  &amp;ldquo;Liva-HugoのGithub&amp;rdquo; &amp;ldquo;Qiita「Hugo + GitHub Pages（独自ドメイン適応）でサイトを作成・公開する」&amp;quot; &amp;ldquo;Install Hugo (Extended) Latest With Shell Script For macOS&amp;rdquo;  </description>
     </item>
     
+    <item>
+      <title>ブログつくりました</title>
+      <link>https://stardust-coder.github.io/apblog/blog/firstpost/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://stardust-coder.github.io/apblog/blog/firstpost/</guid>
+      <description>あけましておめでとう！ 2021年を記念にブログをつくってみました。 特に動機とかはないです。つくっただけ！ （Hugoのテンプレートに触ってみたかっただけという&amp;hellip;）
+講義で習ったこと関連のことを書くかもしれません。 内容は応用数学とかです。
+あと自分がネット上で探してもなかなかヒットしなかった情報とかを載せれたらいいかも。
+まあ、実質日記&amp;hellip;笑</description>
+    </item>
+    
   </channel>
 </rss>
