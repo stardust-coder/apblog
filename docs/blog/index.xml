@@ -8,12 +8,77 @@
     <language>ja</language>
     <lastBuildDate>Tue, 29 Oct 2019 13:49:23 +0600</lastBuildDate><atom:link href="https://stardust-coder.github.io/apblog/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>はじめてのFlutter</title>
+      <link>https://stardust-coder.github.io/apblog/blog/post-8/</link>
+      <pubDate>Sun, 10 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://stardust-coder.github.io/apblog/blog/post-8/</guid>
+      <description>休日を1日消費してアプリ作りしてみた めちゃ楽しくはないけど、そこそこ意外と楽しい。 良い趣味になるかも。
+やったこと  Flutterのインストール Flutter公式ドキュメントを読む デモアプリ（Startup namer）の作成 Udemy ×1 Udacity ×1  公式ドキュメントが丁寧だから、書いてある通りやったら何も問題がなかった。</description>
+    </item>
+    
+    <item>
+      <title> GoogleAnalytics使い方メモ</title>
+      <link>https://stardust-coder.github.io/apblog/blog/post-6/</link>
+      <pubDate>Fri, 08 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://stardust-coder.github.io/apblog/blog/post-6/</guid>
+      <description>はじめてのGoogle Analytics 無料で使えるアクセス解析ツール
+見れるデータ ほぼ全部。代表的なものは
+ PV数：ページ表示回数 セッション数：流入〜離脱回数（30分で新セッション開始） 滞在時間：ページに滞在した平均時間  メニューバー ホーム・カスタム・リアルタイム</description>
+    </item>
+    
+    <item>
+      <title>Webサイトをみてもらうには</title>
+      <link>https://stardust-coder.github.io/apblog/blog/post-7/</link>
+      <pubDate>Fri, 08 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://stardust-coder.github.io/apblog/blog/post-7/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>シリコンニューラルネットワーク</title>
+      <link>https://stardust-coder.github.io/apblog/blog/post-4/</link>
+      <pubDate>Wed, 06 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://stardust-coder.github.io/apblog/blog/post-4/</guid>
+      <description>シリコン神経ネットワークとは 電子回路上でのNN
+ニューロモルフィックハードウェア
+工学 + 脳科学 + 医療
+DLとの違い！！！
+ 神経スパイクを用いて情報伝達。ローパスフィルタ的なところも忠実に再現。 DLは脳からinspirationはもらって進化はしてきたが、再現しているわけではない  シリコン神経ネットワークAI  脳と「互換性(compatibility)」のあるシステム -&amp;gt; 言語・記号を介さずに脳と直接コミュニケーション DLより短いラーニングプロセス, 低消費電力 壊れても勝手に治るコンピュータ（Adult Neurogenesisに対応） 進化するAI  どういった研究があるか  海馬損傷とかにたいして埋め込むデバイス 脳シミュレータ ハイブリッド  これまでのプロジェクト  SyNAPSE(IBM) BrainScaleS(ヒューマンブレインプロジェクトより出資) SpiNNaker スピナカー：商用化済 BrainBow（ボルドー第一代大ら）：医療等 MLKVTH（東大）  断崖絶壁  1940s-50s シナプスの性質 最近 fMRI, CTなどにより高次処理情報もわかるように Micro Circuitの情報処理がわからない。シナプスが再現で作れても、Micro Circuitの作り方がわからないという。。。 100%再現できるわけはないから必須のところがどこであるかが解明される必要がある &amp;lt;- 鳥のマネをして飛ぶのに、揚力だけ真似ればOKみたいな話かな&amp;hellip;?</description>
+    </item>
+    
+    <item>
+      <title>算法数理メモ</title>
+      <link>https://stardust-coder.github.io/apblog/blog/post-5/</link>
+      <pubDate>Wed, 06 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://stardust-coder.github.io/apblog/blog/post-5/</guid>
+      <description>TSP サンタさん。
+Thm. 枝のコストがmetricだと、多項式時間1/2-近似アルゴリズムが存在。 どんなアルゴリズム？
+ Gの最小全域木Tの枝を二重にしたグラフG&amp;rsquo;を作る G&amp;rsquo;のオイラー閉路Xを作る. TSPの解は、Xでの順番でGの全点を訪れるツアー 1/2-近似？ OPT &amp;gt;= OPTから枝を１本取り除いた全域木のコスト &amp;gt;= c(T) c(X) = 2c(T) c(C) &amp;lt;= c(X) (metric) c(C) &amp;lt;= 2OPT = 1/(1-1/2) OPT qed.</description>
+    </item>
+    
+    <item>
       <title>Hugoで作ったブログサイトをGithubPagesで公開</title>
       <link>https://stardust-coder.github.io/apblog/blog/post-1/</link>
       <pubDate>Mon, 04 Jan 2021 00:00:00 +0000</pubDate>
       
       <guid>https://stardust-coder.github.io/apblog/blog/post-1/</guid>
       <description>参考にしたサイト  &amp;ldquo;Liva-HugoのGithub&amp;rdquo; &amp;ldquo;Qiita「Hugo + GitHub Pages（独自ドメイン適応）でサイトを作成・公開する」&amp;quot; &amp;ldquo;Install Hugo (Extended) Latest With Shell Script For macOS&amp;rdquo;  </description>
+    </item>
+    
+    <item>
+      <title>学科長の20年前の研究</title>
+      <link>https://stardust-coder.github.io/apblog/blog/post-2/</link>
+      <pubDate>Mon, 04 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://stardust-coder.github.io/apblog/blog/post-2/</guid>
+      <description>学科長の20年前の研究らしい、興味あり！
+接尾辞木 1973年 全ての接尾辞を格納したcompacted trie
+trie（トライ）全人類知ってるん？  語源は&amp;quot;retrieval&amp;quot; あるノードの配下の全ノードは、自身に対応する文字列に共通するプレフィックス（接頭部）があり、ルート（根）には空の文字列が対応している。 Wikipedia  compacted trieってなんですか なにがコンパクトなんだろう</description>
     </item>
     
     <item>

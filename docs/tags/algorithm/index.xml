@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>algorithm on AP BLOG</title>
+    <link>https://stardust-coder.github.io/apblog/tags/algorithm/</link>
+    <description>Recent content in algorithm on AP BLOG</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Wed, 06 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://stardust-coder.github.io/apblog/tags/algorithm/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>算法数理メモ</title>
+      <link>https://stardust-coder.github.io/apblog/blog/post-5/</link>
+      <pubDate>Wed, 06 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://stardust-coder.github.io/apblog/blog/post-5/</guid>
+      <description>TSP サンタさん。
+Thm. 枝のコストがmetricだと、多項式時間1/2-近似アルゴリズムが存在。 どんなアルゴリズム？
+ Gの最小全域木Tの枝を二重にしたグラフG&amp;rsquo;を作る G&amp;rsquo;のオイラー閉路Xを作る. TSPの解は、Xでの順番でGの全点を訪れるツアー 1/2-近似？ OPT &amp;gt;= OPTから枝を１本取り除いた全域木のコスト &amp;gt;= c(T) c(X) = 2c(T) c(C) &amp;lt;= c(X) (metric) c(C) &amp;lt;= 2OPT = 1/(1-1/2) OPT qed.</description>
+    </item>
+    
+    <item>
+      <title>学科長の20年前の研究</title>
+      <link>https://stardust-coder.github.io/apblog/blog/post-2/</link>
+      <pubDate>Mon, 04 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://stardust-coder.github.io/apblog/blog/post-2/</guid>
+      <description>学科長の20年前の研究らしい、興味あり！
+接尾辞木 1973年 全ての接尾辞を格納したcompacted trie
+trie（トライ）全人類知ってるん？  語源は&amp;quot;retrieval&amp;quot; あるノードの配下の全ノードは、自身に対応する文字列に共通するプレフィックス（接頭部）があり、ルート（根）には空の文字列が対応している。 Wikipedia  compacted trieってなんですか なにがコンパクトなんだろう</description>
+    </item>
+    
+  </channel>
+</rss>

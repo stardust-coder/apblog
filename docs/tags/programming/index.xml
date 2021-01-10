@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>programming on AP BLOG</title>
+    <link>https://stardust-coder.github.io/apblog/tags/programming/</link>
+    <description>Recent content in programming on AP BLOG</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Sun, 10 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://stardust-coder.github.io/apblog/tags/programming/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>はじめてのFlutter</title>
+      <link>https://stardust-coder.github.io/apblog/blog/post-8/</link>
+      <pubDate>Sun, 10 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://stardust-coder.github.io/apblog/blog/post-8/</guid>
+      <description>休日を1日消費してアプリ作りしてみた めちゃ楽しくはないけど、そこそこ意外と楽しい。 良い趣味になるかも。
+やったこと  Flutterのインストール Flutter公式ドキュメントを読む デモアプリ（Startup namer）の作成 Udemy ×1 Udacity ×1  公式ドキュメントが丁寧だから、書いてある通りやったら何も問題がなかった。</description>
+    </item>
+    
+  </channel>
+</rss>

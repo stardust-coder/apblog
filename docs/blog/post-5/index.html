@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="ja"><head>
+  <meta charset="utf-8">
+  <title>AP BLOG</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="this is meta description">
+  <meta name="author" content="Themefisher">
+  <meta name="generator" content="Hugo 0.80.0" />
+
+  <!-- plugins -->
+  
+  <link rel="stylesheet" href="https://stardust-coder.github.io/apblog/plugins/bootstrap/bootstrap.min.css ">
+  
+  <link rel="stylesheet" href="https://stardust-coder.github.io/apblog/plugins/slick/slick.css ">
+  
+  <link rel="stylesheet" href="https://stardust-coder.github.io/apblog/plugins/themify-icons/themify-icons.css ">
+  
+  <link rel="stylesheet" href="https://stardust-coder.github.io/apblog/plugins/venobox/venobox.css ">
+  
+
+  <!-- Main Stylesheet -->
+  
+  <link rel="stylesheet" href="https://stardust-coder.github.io/apblog/scss/style.min.css" media="screen">
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="https://stardust-coder.github.io/apblog/images/favicon.png " type="image/x-icon">
+  <link rel="icon" href="https://stardust-coder.github.io/apblog/images/favicon.png " type="image/x-icon">
+
+  <!-- google analitycs -->
+  <script>
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'Your ID', 'auto');
+    ga('send', 'pageview');
+  </script>
+
+</head><body>
+<!-- preloader start -->
+<div class="preloader">
+  
+</div>
+<!-- preloader end -->
+<!-- navigation -->
+<header class="navigation">
+  <div class="container">
+    
+    <nav class="navbar navbar-expand-lg navbar-white bg-transparent border-bottom pl-0">
+      <a class="navbar-brand mobile-view" href="https://stardust-coder.github.io/apblog/"><img class="img-fluid"
+          src="https://stardust-coder.github.io/apblog/images/logo.png" alt="AP BLOG"></a>
+      <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
+        <i class="ti-menu h3"></i>
+      </button>
+
+      <div class="collapse navbar-collapse text-center" id="navigation">
+        <div class="desktop-view">
+          <ul class="navbar-nav mr-auto">
+            
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="ti-facebook"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="ti-twitter-alt"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="ti-instagram"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="ti-github"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="ti-linkedin"></i></a>
+            </li>
+            
+          </ul>
+        </div>
+
+        <a class="navbar-brand mx-auto desktop-view" href="https://stardust-coder.github.io/apblog/"><img class="img-fluid"
+            src="https://stardust-coder.github.io/apblog/images/logo.png" alt="AP BLOG"></a>
+
+        <ul class="navbar-nav">
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://stardust-coder.github.io/apblog/about">About</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://stardust-coder.github.io/apblog/blog">Post</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://stardust-coder.github.io/apblog/contact">Contact</a>
+          </li>
+          
+          
+        </ul>
+
+        
+        <!-- search -->
+        <div class="search pl-lg-4">
+          <button id="searchOpen" class="search-btn"><i class="ti-search"></i></button>
+          <div class="search-wrapper">
+            <form action="https://stardust-coder.github.io/apblog//search" class="h-100">
+              <input class="search-box px-4" id="search-query" name="s" type="search" placeholder="Type & Hit Enter...">
+            </form>
+            <button id="searchClose" class="search-close"><i class="ti-close text-dark"></i></button>
+          </div>
+        </div>
+        
+
+        
+      </div>
+    </nav>
+  </div>
+</header>
+<!-- /navigation -->
+
+<section class="section-sm">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto">
+        
+        <a href="https://stardust-coder.github.io/apblog/categories/class"
+          class="text-primary">Class</a>
+        
+        <h2>算法数理メモ</h2>
+        <div class="mb-3 post-meta">
+          <span>By Themefisher</span>
+          
+          <span class="border-bottom border-primary px-2 mx-1"></span>
+          <span>06 January 2021</span>
+          
+        </div>
+        
+        <img src="https://stardust-coder.github.io/apblog/images/featured-post/post-2.jpg" class="img-fluid w-100 mb-4" alt="算法数理メモ">
+        
+        <div class="content mb-5">
+          <h3 id="tsp">TSP</h3>
+<p>サンタさん。</p>
+<p>Thm. 枝のコストがmetricだと、多項式時間1/2-近似アルゴリズムが存在。
+どんなアルゴリズム？</p>
+<ul>
+<li>Gの最小全域木Tの枝を二重にしたグラフG&rsquo;を作る</li>
+<li>G&rsquo;のオイラー閉路Xを作る.</li>
+<li>TSPの解は、Xでの順番でGの全点を訪れるツアー
+1/2-近似？</li>
+<li>OPT &gt;= OPTから枝を１本取り除いた全域木のコスト &gt;= c(T)</li>
+<li>c(X) = 2c(T)</li>
+<li>c(C) &lt;= c(X) (metric)</li>
+<li>c(C) &lt;= 2OPT = 1/(1-1/2) OPT qed.</li>
+</ul>
+<p>Thm. 枝のコストがmetricだと、多項式時間1/3-近似アルゴリズムが存在。
+【最近！】</p>
+<h4 id="tspとtspd">TSPとTSP(D)</h4>
+<p>TSPは最短ツアーを求める問題。
+TSP(D)はある整数B以下のツアーがあるか決定する問題。</p>
+<h4 id="tspとtspdの関係">TSPとTSP(D)の関係</h4>
+<p>TSPが解けたら、TSP(D)は解ける。あたりまえ。</p>
+<p>逆は？実は</p>
+<p>TSP(D)を多項式回解けば、TSPの解がもとまる。</p>
+<h3 id="補題hamilton-path--tspd">補題：HAMILTON PATH ∝ TSP(D)</h3>
+<p>ハミルトンパス問題のグラフをGとする。
+Gの枝(i,j)があるときdij=1, ないときdij=2, として隣接距離（対称）行列Dをつくる。B = n+1とする。</p>
+<p>TSP(D)を解いて、長さn+1以下のツアーがあると判定された
+-&gt; パスn本で長さn+1だから、長さ2の枝は高々1本
+-&gt; そのツアーの中では長さ1のパスをn-1本連続で通っている。
+-&gt; それってハミルトンパスになっている。</p>
+<p>・問題の変換はO(logn)</p>
+<h3 id="np">NP</h3>
+<p>NPは全てSATに帰着できる。</p>
+<h4 id="satとは">SATとは</h4>
+<p>充足判定問題:
+CNF論理関数が与えられたとき、それが充足可能か判定する。</p>
+<p>ある論理関数が充足可能：【定義】ある真理値割当が存在し、論理関数が真になること。</p>
+<h4 id="hamiltonpath--sat">HAMILTONPATH ∝ SAT</h4>
+<h4 id="完全性">完全性</h4>
+<ul>
+<li>C-complete:任意のL' in CがLに帰着可能</li>
+<li>closed under reductions: L ∝ L' in C</li>
+<li>PとNPは帰着に関して閉じている。</li>
+</ul>
+<h4 id="satはnp-completecookの定理">SATはNP-complete(Cookの定理)</h4>
+<ul>
+<li>NPの任意の問題は非決定チューリングマシンで多項式時間で解ける。</li>
+<li>「非決定チューリングマシンのプログラムが多項式時間p(n)で状態Yで停止」
+同値
+「論理関数は充足可能」</li>
+<li>つまり、NPの任意の問題がSATに帰着可能。</li>
+<li>つまり、SATはNP-complete</li>
+</ul>
+<h4 id="sat--hamiltonpath--tspd--sat">SAT ∝ HAMILTONPATH ∝ TSP(D) ∝ SAT</h4>
+<p>全てNP-complete</p>
+<h3 id="bin-packing問題">Bin-Packing問題</h3>
+<p>前からみてくのが2-近似アルゴリズム</p>
+<h3 id="万能チューリングマシンu">万能チューリングマシンU</h3>
+<p>U(M;x)=M(x), UはMの動作をまねしてる。</p>
+<h4 id="the-halting-problem">The HALTING Problem</h4>
+<p>言語H: 全てのチューリングマシンと停止する入力を符号化した文字列の集合
+Hを認識するMHの存在を仮定して背理法を目指す。
+＜対角線論法で示す＞</p>
+
+        </div>
+
+        
+        
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="section-sm">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto text-center">
+        <h2>Join Our Newsletter</h2>
+        <p class="text-light px-md-5 py-4 border-left border-right border-primary">
+          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero</p>
+        <form action="#" class="row justify-content-center">
+          <div class="input-group col-md-8">
+            <input type="text" class="form-control" placeholder="Your Email Address">
+            <div class="input-group-append">
+              <button class="input-group-text btn btn-primary">Subscribe</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<footer>
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 text-center mb-5">
+        <a href="https://stardust-coder.github.io/apblog/"><img src="https://stardust-coder.github.io/apblog/images/logo.png" alt="AP BLOG"></a>
+      </div>
+               
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Contact Me</h6>
+        <ul class="list-unstyled">
+          
+          <li class="mb-3"><a class="text-dark" href="tel:0124857985320"><i
+                class="ti-mobile mr-3 text-primary"></i>0124857985320</a></li>
+          
+                     
+          <li class="mb-3"><i class="ti-location-pin mr-3 text-primary"></i>Dhaka, Bangladedsh</li>
+          
+                     
+          <li class="mb-3"><a class="text-dark" href="mailto:demo@email.com"><i
+                class="ti-email mr-3 text-primary"></i>demo@email.com</a>
+          
+          </li>
+        </ul>
+      </div>
+      
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Social Contacts</h6>
+        <ul class="list-unstyled">
+          
+          <li class="mb-3"><a class="text-dark" href="#">facebook</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="#">twitter</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="#">instagram</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="#">github</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="#">linkedin</a></li>
+          
+        </ul>
+      </div>
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Categories</h6>
+        <ul class="list-unstyled">
+          <li class="mb-3"><a class="text-dark"
+              href="https://stardust-coder.github.io/apblog/categories/class">Class</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
+              href="https://stardust-coder.github.io/apblog/categories/tool">Tool</a>
+          </li>
+          <li class="mb-3"><a class="text-dark"
+              href="https://stardust-coder.github.io/apblog/categories/web-design">Web design</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <h6 class="mb-4">Quick Links</h6>
+        <ul class="list-unstyled">
+          
+          <li class="mb-3"><a class="text-dark" href="https://stardust-coder.github.io/apblog/about">About</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://stardust-coder.github.io/apblog/blog">Post</a></li>
+          
+          <li class="mb-3"><a class="text-dark" href="https://stardust-coder.github.io/apblog/contact">Contact</a></li>
+          
+        </ul>
+      </div>
+      <div class="col-12 border-top py-4 text-center">
+        | copyright © 2020 <a href="https://themefisher.com">Themefisher</a> All Rights Reserved |
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+  var indexURL = "https://stardust-coder.github.io/apblog/index.json"
+</script>
+
+<!-- JS Plugins -->
+
+<script src="https://stardust-coder.github.io/apblog/plugins/jQuery/jquery.min.js"></script>
+
+<script src="https://stardust-coder.github.io/apblog/plugins/bootstrap/bootstrap.min.js"></script>
+
+<script src="https://stardust-coder.github.io/apblog/plugins/slick/slick.min.js"></script>
+
+<script src="https://stardust-coder.github.io/apblog/plugins/venobox/venobox.min.js"></script>
+
+<script src="https://stardust-coder.github.io/apblog/plugins/search/fuse.min.js"></script>
+
+<script src="https://stardust-coder.github.io/apblog/plugins/search/mark.js"></script>
+
+<script src="https://stardust-coder.github.io/apblog/plugins/search/search.js"></script>
+
+<!-- Main Script -->
+
+<script src="https://stardust-coder.github.io/apblog/js/script.min.js"></script>
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.1/js.cookie.min.js"></script>
+<div id="js-cookie-box" class="cookie-box cookie-box-hide">
+	This site uses cookies. By continuing to use this website, you agree to their use. <span id="js-cookie-button" class="btn btn-sm btn-primary ml-2">I Accept</span>
+</div>
+<script>
+	(function ($) {
+		const cookieBox = document.getElementById('js-cookie-box');
+		const cookieButton = document.getElementById('js-cookie-button');
+		if (!Cookies.get('cookie-box')) {
+			cookieBox.classList.remove('cookie-box-hide');
+			cookieButton.onclick = function () {
+				Cookies.set('cookie-box', true, {
+					expires:  2 
+				});
+				cookieBox.classList.add('cookie-box-hide');
+			};
+		}
+	})(jQuery);
+</script>
+
+
+<style>
+.cookie-box {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  z-index: 9999;
+  padding: 1rem 2rem;
+  background: rgb(71, 71, 71);
+  transition: all .75s cubic-bezier(.19, 1, .22, 1);
+  color: #fdfdfd;
+}
+
+.cookie-box-hide {
+  display: none;
+}
+</style>
+</body>
+</html>

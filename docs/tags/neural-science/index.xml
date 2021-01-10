@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>neural science on AP BLOG</title>
+    <link>https://stardust-coder.github.io/apblog/tags/neural-science/</link>
+    <description>Recent content in neural science on AP BLOG</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Wed, 06 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://stardust-coder.github.io/apblog/tags/neural-science/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>シリコンニューラルネットワーク</title>
+      <link>https://stardust-coder.github.io/apblog/blog/post-4/</link>
+      <pubDate>Wed, 06 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://stardust-coder.github.io/apblog/blog/post-4/</guid>
+      <description>シリコン神経ネットワークとは 電子回路上でのNN
+ニューロモルフィックハードウェア
+工学 + 脳科学 + 医療
+DLとの違い！！！
+ 神経スパイクを用いて情報伝達。ローパスフィルタ的なところも忠実に再現。 DLは脳からinspirationはもらって進化はしてきたが、再現しているわけではない  シリコン神経ネットワークAI  脳と「互換性(compatibility)」のあるシステム -&amp;gt; 言語・記号を介さずに脳と直接コミュニケーション DLより短いラーニングプロセス, 低消費電力 壊れても勝手に治るコンピュータ（Adult Neurogenesisに対応） 進化するAI  どういった研究があるか  海馬損傷とかにたいして埋め込むデバイス 脳シミュレータ ハイブリッド  これまでのプロジェクト  SyNAPSE(IBM) BrainScaleS(ヒューマンブレインプロジェクトより出資) SpiNNaker スピナカー：商用化済 BrainBow（ボルドー第一代大ら）：医療等 MLKVTH（東大）  断崖絶壁  1940s-50s シナプスの性質 最近 fMRI, CTなどにより高次処理情報もわかるように Micro Circuitの情報処理がわからない。シナプスが再現で作れても、Micro Circuitの作り方がわからないという。。。 100%再現できるわけはないから必須のところがどこであるかが解明される必要がある &amp;lt;- 鳥のマネをして飛ぶのに、揚力だけ真似ればOKみたいな話かな&amp;hellip;?</description>
+    </item>
+    
+  </channel>
+</rss>
