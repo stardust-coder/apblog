@@ -28,14 +28,5 @@
  PV数：ページ表示回数 セッション数：流入〜離脱回数（30分で新セッション開始） 滞在時間：ページに滞在した平均時間  メニューバー ホーム・カスタム・リアルタイム</description>
     </item>
     
-    <item>
-      <title>Webサイトをみてもらうには</title>
-      <link>https://stardust-coder.github.io/apblog/blog/post-7/</link>
-      <pubDate>Fri, 08 Jan 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://stardust-coder.github.io/apblog/blog/post-7/</guid>
-      <description></description>
-    </item>
-    
   </channel>
 </rss>

@@ -8,6 +8,31 @@
     <language>ja</language>
     <lastBuildDate>Tue, 29 Oct 2019 13:49:23 +0600</lastBuildDate><atom:link href="https://stardust-coder.github.io/apblog/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>完全単模</title>
+      <link>https://stardust-coder.github.io/apblog/blog/post-10/</link>
+      <pubDate>Tue, 12 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://stardust-coder.github.io/apblog/blog/post-10/</guid>
+      <description>最適化はおもしろそう。。。
+完全単模性とは 任意の小行列式が0か-1か1の行列のこと.
+別に正方行列じゃなくてもいい.
+成分は, 0か1か-1となる.
+例) 単位行列,
+$A$が完全単模なら, 転置とか, $A$と単位行列を並べてできる行列も完全単模！</description>
+    </item>
+    
+    <item>
+      <title>幾何数理</title>
+      <link>https://stardust-coder.github.io/apblog/blog/post-9/</link>
+      <pubDate>Tue, 12 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://stardust-coder.github.io/apblog/blog/post-9/</guid>
+      <description>幾何数理の期末勉強をはじめなきゃ汗
+連結閉曲面の分類定理 連結な閉曲面は
+ 穴がkこの浮き輪 射影平面をk&amp;rsquo;こくっつけたもの のどちらかと同相である！！！  同相・・・位相同型。全単射で逆写像も連続である同相写像が存在。 射影平面・・・P^2 位相空間が連結・・・開かつ閉な集合が自明なもの(空集合と全体)しか存在しない。</description>
+    </item>
+    
+    <item>
       <title>はじめてのFlutter</title>
       <link>https://stardust-coder.github.io/apblog/blog/post-8/</link>
       <pubDate>Sun, 10 Jan 2021 00:00:00 +0000</pubDate>
@@ -26,15 +51,6 @@
       <description>はじめてのGoogle Analytics 無料で使えるアクセス解析ツール
 見れるデータ ほぼ全部。代表的なものは
  PV数：ページ表示回数 セッション数：流入〜離脱回数（30分で新セッション開始） 滞在時間：ページに滞在した平均時間  メニューバー ホーム・カスタム・リアルタイム</description>
-    </item>
-    
-    <item>
-      <title>Webサイトをみてもらうには</title>
-      <link>https://stardust-coder.github.io/apblog/blog/post-7/</link>
-      <pubDate>Fri, 08 Jan 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://stardust-coder.github.io/apblog/blog/post-7/</guid>
-      <description></description>
     </item>
     
     <item>

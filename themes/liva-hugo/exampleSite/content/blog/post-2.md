@@ -1,6 +1,6 @@
 ---
-title: "How To Use Checklists To Improve Your UX"
-date: 2019-10-29T10:07:47+06:00
+title: "学科長の20年前の研究"
+date: 2021-01-04
 draft: false
 
 # post thumb
@@ -11,158 +11,81 @@ description: "this is meta description"
 
 # taxonomies
 categories: 
-  - "HTML & CSS"
+  - "class"
 tags:
-  - "Photos"
-  - "Game"
-  - "React"
-  - "Python"
-  - "New"
-
+  - "algorithm"
+  - "computer science"
+  
 # post type
 type: "post"
 ---
 
-# Heading 1
-## Heading 2
-### Heading 3
-#### Heading 4
-##### Heading 5
-###### Heading 6
+学科長の20年前の研究らしい、興味あり！
 
-<hr>
+### 接尾辞木
+1973年
+全ての接尾辞を格納したcompacted trie
 
-##### Emphasis
+#### trie（トライ）全人類知ってるん？
 
-Emphasis, aka italics, with *asterisks* or _underscores_.
+* 語源は"retrieval"
+* あるノードの配下の全ノードは、自身に対応する文字列に共通するプレフィックス（接頭部）があり、ルート（根）には空の文字列が対応している。
+* [Wikipedia](https://ja.wikipedia.org/wiki/トライ_(データ構造))
 
-Strong emphasis, aka bold, with **asterisks** or __underscores__.
+#### compacted trieってなんですか
+なにがコンパクトなんだろう
 
-Combined emphasis with **asterisks and _underscores_**.
+### 接尾辞配列（suffix array)
+1993年
+接尾辞のポインタを辞書順にソートした配列
+検索は二分探索で行える
+二分探索木の高さはO(logn)だった
+mは検索したい文字列の長さ、一回の比較につき長さmの文字列比較なのでO(m)かかる。
+-> 計算量はO(mlogn)
 
-Strikethrough uses two tildes. ~~Scratch this.~~
+```perl:suffixarray.pl
+#!/usr/bin/perl -w
+use strict;
+my $t = "hogehogehogege";		# この中から
+my @sa = (0..length($t)-1);	# Suffix Array初期化
 
-<hr>
+### Suffix Array の作成
+@sa = sort {substr($t, $a) cmp substr($t, $b)} @sa;
+for (0..$#sa) { print "$_ $sa[$_] ",substr($t, $sa[$_]),"\n"; }
+#ポイントは、ポインタ（数字）が辞書順にソートされている
 
-##### Link
-[I'm an inline-style link](https://www.google.com)
-
-[I'm an inline-style link with title](https://www.google.com "Google's Homepage")
-
-[I'm a reference-style link][Arbitrary case-insensitive reference text]
-
-[I'm a relative reference to a repository file](../blob/master/LICENSE)
-
-[You can use numbers for reference-style link definitions][1]
-
-Or leave it empty and use the [link text itself].
-
-URLs and URLs in angle brackets will automatically get turned into links. 
-http://www.example.com or <http://www.example.com> and sometimes 
-example.com (but not on Github, for example).
-
-Some text to show that the reference links can follow later.
-
-[arbitrary case-insensitive reference text]: https://www.mozilla.org
-[1]: http://slashdot.org
-[link text itself]: http://www.reddit.com
-
-<hr>
-
-##### Paragraph
-
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nihil enim maxime corporis cumque totam aliquid nam sint inventore optio modi neque laborum officiis necessitatibus, facilis placeat pariatur! Voluptatem, sed harum pariatur adipisci voluptates voluptatum cumque, porro sint minima similique magni perferendis fuga! Optio vel ipsum excepturi tempore reiciendis id quidem? Vel in, doloribus debitis nesciunt fugit sequi magnam accusantium modi neque quis, vitae velit, pariatur harum autem a! Velit impedit atque maiores animi possimus asperiores natus repellendus excepturi sint architecto eligendi non, omnis nihil. Facilis, doloremque illum. Fugit optio laborum minus debitis natus illo perspiciatis corporis voluptatum rerum laboriosam.
-
-<hr>
-
-##### List
-
-1. List item
-2. List item
-3. List item
-4. List item
-5. List item
-
-
-##### Unordered List
-
-* List item
-* List item
-* List item
-* List item
-* List item
-
-<hr>
-
-##### Code and Syntax Highlighting
-
-Inline `code` has `back-ticks around` it.
-
-```javascript
-var s = "JavaScript syntax highlighting";
-alert(s);
-```
- 
-```python
-s = "Python syntax highlighting"
-print s
-```
- 
-```
-No language indicated, so no syntax highlighting. 
-But let's throw in a <b>tag</b>.
+### バイナリサーチ
+my $k = "ppi"; #これがいる場所を探す
+my ($l, $u) = (0, $#sa);
+while ($l <= $u) {
+    my $i = int(($l + $u)/2);
+    my $c = $k cmp substr($t, $sa[$i], length($k));
+    if ($c > 0) {
+        $l = $i + 1;
+    } elsif ($c < 0) {
+        $u = $i - 1;
+    } else {
+        print qq("$k" is found at $sa[$i]\n);
+        last;
+    }
+}
 ```
 
-<hr>
-
-##### Blockquote
-
-> This is a blockquote example.
-
-<hr>
-
-##### Inline HTML
-
-You can also use raw HTML in your Markdown, and it'll mostly work pretty well.
-
-<dl>
-  <dt>Definition list</dt>
-  <dd>Is something people use sometimes.</dd>
-
-  <dt>Markdown in HTML</dt>
-  <dd>Does *not* work **very** well. Use HTML <em>tags</em>.</dd>
-</dl>
 
 
-<hr>
+### 圧縮接尾辞配列(compressed suffix array)
 
-##### Tables
+* SA の代わりに Φ[i] = SA^-1[SA[i]+1] を格納
+* 先頭の1文字を消しても辞書順は同じ -> これを生かして圧縮する -> すご。あたまよ。
 
-Colons can be used to align columns.
+#### できること
+lookup(i): SA[i] を返す (O(log n) 時間)
+inverse(i): SA-1[i] を返す (O(log n) 時間)
+Φ[i]: SA-1[SA[i]+1] を返す(O(1) 時間)
+substring(i,l): T[SA[i]..SA[i]+l-1]を返す – O(l) 時間
 
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+#### しくみはむずいけど、使ってみるか
+リンク切れてた。。。
 
-There must be at least 3 dashes separating each header cell.
-The outer pipes (|) are optional, and you don't need to make the 
-raw Markdown line up prettily. You can also use inline Markdown.
-
-Markdown | Less | Pretty
---- | --- | ---
-*Still* | `renders` | **nicely**
-1 | 2 | 3
-
-<hr>
-
-##### Image
-
-![image](../../images/post/post-1.jpg)
-
-<hr>
-
-##### Youtube video
-
-{{< youtube C0DPdy98e4c >}}
+[](https://echizen-tm.hatenadiary.org/entry/20101028/1288267336)
+[](https://echizen-tm.hatenadiary.org/entry/20100818/1282149909)

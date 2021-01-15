@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>math on AP BLOG</title>
+    <link>https://stardust-coder.github.io/apblog/categories/math/</link>
+    <description>Recent content in math on AP BLOG</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Tue, 12 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://stardust-coder.github.io/apblog/categories/math/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>完全単模</title>
+      <link>https://stardust-coder.github.io/apblog/blog/post-10/</link>
+      <pubDate>Tue, 12 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://stardust-coder.github.io/apblog/blog/post-10/</guid>
+      <description>最適化はおもしろそう。。。
+完全単模性とは 任意の小行列式が0か-1か1の行列のこと.
+別に正方行列じゃなくてもいい.
+成分は, 0か1か-1となる.
+例) 単位行列,
+$A$が完全単模なら, 転置とか, $A$と単位行列を並べてできる行列も完全単模！</description>
+    </item>
+    
+    <item>
+      <title>幾何数理</title>
+      <link>https://stardust-coder.github.io/apblog/blog/post-9/</link>
+      <pubDate>Tue, 12 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://stardust-coder.github.io/apblog/blog/post-9/</guid>
+      <description>幾何数理の期末勉強をはじめなきゃ汗
+連結閉曲面の分類定理 連結な閉曲面は
+ 穴がkこの浮き輪 射影平面をk&amp;rsquo;こくっつけたもの のどちらかと同相である！！！  同相・・・位相同型。全単射で逆写像も連続である同相写像が存在。 射影平面・・・P^2 位相空間が連結・・・開かつ閉な集合が自明なもの(空集合と全体)しか存在しない。</description>
+    </item>
+    
+  </channel>
+</rss>
