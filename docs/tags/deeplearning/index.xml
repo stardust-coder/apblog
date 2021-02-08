@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>deeplearning on AP BLOG</title>
+    <link>https://stardust-coder.github.io/apblog/tags/deeplearning/</link>
+    <description>Recent content in deeplearning on AP BLOG</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Mon, 08 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://stardust-coder.github.io/apblog/tags/deeplearning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ニューラルネットワークの構成要素</title>
+      <link>https://stardust-coder.github.io/apblog/blog/post-11/</link>
+      <pubDate>Mon, 08 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://stardust-coder.github.io/apblog/blog/post-11/</guid>
+      <description>ネットワーク構造 データの性質を見て考える。
+なにをつかうか？全結合層、CNN、RNN・・・
+パラメータは？CNNならチャネル数、・・・
+テキストならAttention, Transformer・・・
+活性化関数は何使う？sigmoid, ReLU, tanh・・・
+目的関数 cross entropy, MSE, Triplet損失 などなどどれを使おう？</description>
+    </item>
+    
+  </channel>
+</rss>

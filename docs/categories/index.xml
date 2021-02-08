@@ -6,22 +6,22 @@
     <description>Recent content in Categories on AP BLOG</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Tue, 12 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://stardust-coder.github.io/apblog/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 08 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://stardust-coder.github.io/apblog/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>math</title>
+      <link>https://stardust-coder.github.io/apblog/categories/math/</link>
+      <pubDate>Mon, 08 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://stardust-coder.github.io/apblog/categories/math/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>class</title>
       <link>https://stardust-coder.github.io/apblog/categories/class/</link>
       <pubDate>Tue, 12 Jan 2021 00:00:00 +0000</pubDate>
       
       <guid>https://stardust-coder.github.io/apblog/categories/class/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>math</title>
-      <link>https://stardust-coder.github.io/apblog/categories/math/</link>
-      <pubDate>Tue, 12 Jan 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://stardust-coder.github.io/apblog/categories/math/</guid>
       <description></description>
     </item>
     
