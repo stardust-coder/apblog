@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>class on AP BLOG</title>
+    <link>https://stardust-coder.github.io/apblog/tags/class/</link>
+    <description>Recent content in class on AP BLOG</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Thu, 11 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://stardust-coder.github.io/apblog/tags/class/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>自然言語処理</title>
+      <link>https://stardust-coder.github.io/apblog/blog/post-14/</link>
+      <pubDate>Thu, 11 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://stardust-coder.github.io/apblog/blog/post-14/</guid>
+      <description>数理情報工学特論第一とかいう今年から始まったやつ
+ 「意味」とは・言語モデル  【意味】 Harrisの分散意味論 単語の「意味（価値？）」　＝　単語の分布？ 意味の合成性　ベクトルの和 （田2017）||w(st) - 1/2(w(s)+w(t))||^2  n-gram  n-gramを使うと、原文とシャッフルとモンキー列が識別できる。 自然言語では長いn-gramでも冪（順位頻度分布両対数プロットで直線）が成り立つ.</description>
+    </item>
+    
+  </channel>
+</rss>
