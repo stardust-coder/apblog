@@ -11,9 +11,9 @@ description: "this is meta description"
 
 # taxonomies
 categories: 
-  - "class"
-tags:
+  - "lectures"
   - "computer science"
+tags:
   - "neural science"
   
 # post type

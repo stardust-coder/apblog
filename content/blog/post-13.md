@@ -13,6 +13,7 @@ description: "this is meta description"
 categories: 
   - "math"
 tags:
+  - "information geometry"
   
 # post type
 type: "post"

@@ -11,8 +11,9 @@ description: "this is meta description"
 
 # taxonomies
 categories: 
-  - "tool"
+  - "tutorial"
 tags:
+  - "marketing"
   
 # post type
 type: "post"

@@ -12,7 +12,7 @@ description: "this is meta description"
 # taxonomies
 categories: 
   - "math"
-  - "class"
+  - "lectures"
 tags:
   - "optimization"
   

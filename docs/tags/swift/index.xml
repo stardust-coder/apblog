@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>swift on AP BLOG</title>
+    <link>https://stardust-coder.github.io/apblog/tags/swift/</link>
+    <description>Recent content in swift on AP BLOG</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Fri, 26 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://stardust-coder.github.io/apblog/tags/swift/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Swiftでアニメーション</title>
+      <link>https://stardust-coder.github.io/apblog/blog/post-21/</link>
+      <pubDate>Fri, 26 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://stardust-coder.github.io/apblog/blog/post-21/</guid>
+      <description>UIView.Animation アニメーション中にブザーを鳴らしたい・・・
+AudioKitを使う。
+animationの中に書いてもダメ
+結局
+Dispatch +0.01s とかにした。スレッドなるものがあるらしい。 同じスレッドで処理されると、アニメーションが終わってから別の処理を呼ぶ（=アニメーション中に再生できない） のであえて別のスレッドにおいて非同期処理する。</description>
+    </item>
+    
+    <item>
+      <title>面白い論文を見つけた</title>
+      <link>https://stardust-coder.github.io/apblog/blog/post-23/</link>
+      <pubDate>Fri, 26 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://stardust-coder.github.io/apblog/blog/post-23/</guid>
+      <description>KUSUGURI: A Shared Tactile Interface for Bidirectional Tickling 10年以上前か〜。テーマが面白い！
+日本語に訳すと</description>
+    </item>
+    
+    <item>
+      <title>カメラを背景画像に</title>
+      <link>https://stardust-coder.github.io/apblog/blog/post-20/</link>
+      <pubDate>Thu, 25 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://stardust-coder.github.io/apblog/blog/post-20/</guid>
+      <description>Version Xcode12.4 Swift5.3.2
+めいいっぱいUIViewを作って、そこにカメラの映像を入力する Main.storyboardでめいいっぱいのUIViewを作り、
+8行目の@IBOutlet と接続する。
+class ViewController: UIViewController { var mySession : AVCaptureSession!</description>
+    </item>
+    
+  </channel>
+</rss>

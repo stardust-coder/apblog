@@ -11,9 +11,9 @@ description: "this is meta description"
 
 # taxonomies
 categories: 
-  - "tool"
-tags:
+  - "tutorial"
   - "programming"
+tags:
   - "App"
   - "Flutter"
   

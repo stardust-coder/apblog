@@ -12,10 +12,11 @@ description: "this is meta description"
 # taxonomies
 categories: 
   - "math"
+  - "lectures"
 
 tags:
-  - "nlp"
-  - "class"
+  - "NLP"
+  
   
 # post type
 type: "post"

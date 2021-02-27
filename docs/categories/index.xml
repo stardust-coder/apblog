@@ -6,7 +6,34 @@
     <description>Recent content in Categories on AP BLOG</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Thu, 11 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://stardust-coder.github.io/apblog/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 26 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://stardust-coder.github.io/apblog/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>programming</title>
+      <link>https://stardust-coder.github.io/apblog/categories/programming/</link>
+      <pubDate>Fri, 26 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://stardust-coder.github.io/apblog/categories/programming/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>framework</title>
+      <link>https://stardust-coder.github.io/apblog/categories/framework/</link>
+      <pubDate>Tue, 23 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://stardust-coder.github.io/apblog/categories/framework/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>lectures</title>
+      <link>https://stardust-coder.github.io/apblog/categories/lectures/</link>
+      <pubDate>Thu, 11 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://stardust-coder.github.io/apblog/categories/lectures/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>math</title>
       <link>https://stardust-coder.github.io/apblog/categories/math/</link>
@@ -17,20 +44,20 @@
     </item>
     
     <item>
-      <title>class</title>
-      <link>https://stardust-coder.github.io/apblog/categories/class/</link>
-      <pubDate>Tue, 12 Jan 2021 00:00:00 +0000</pubDate>
+      <title>tutorial</title>
+      <link>https://stardust-coder.github.io/apblog/categories/tutorial/</link>
+      <pubDate>Sun, 10 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://stardust-coder.github.io/apblog/categories/class/</guid>
+      <guid>https://stardust-coder.github.io/apblog/categories/tutorial/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>tool</title>
-      <link>https://stardust-coder.github.io/apblog/categories/tool/</link>
-      <pubDate>Sun, 10 Jan 2021 00:00:00 +0000</pubDate>
+      <title>computer science</title>
+      <link>https://stardust-coder.github.io/apblog/categories/computer-science/</link>
+      <pubDate>Wed, 06 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://stardust-coder.github.io/apblog/categories/tool/</guid>
+      <guid>https://stardust-coder.github.io/apblog/categories/computer-science/</guid>
       <description></description>
     </item>
     

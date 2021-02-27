@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>framework on AP BLOG</title>
+    <link>https://stardust-coder.github.io/apblog/categories/framework/</link>
+    <description>Recent content in framework on AP BLOG</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Tue, 23 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://stardust-coder.github.io/apblog/categories/framework/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SPRINT奮闘記4日目</title>
+      <link>https://stardust-coder.github.io/apblog/blog/post-16/</link>
+      <pubDate>Tue, 23 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://stardust-coder.github.io/apblog/blog/post-16/</guid>
+      <description>参考書籍 SPRINT How to Solve Big Problems and Test New Ideas in Just Five Days</description>
+    </item>
+    
+    <item>
+      <title>SPRINT奮闘記3日目</title>
+      <link>https://stardust-coder.github.io/apblog/blog/post-15/</link>
+      <pubDate>Mon, 22 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://stardust-coder.github.io/apblog/blog/post-15/</guid>
+      <description>参考書籍 SPRINT How to Solve Big Problems and Test New Ideas in Just Five Days</description>
+    </item>
+    
+  </channel>
+</rss>

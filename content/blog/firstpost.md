@@ -12,9 +12,10 @@ description: "this is meta description"
 # taxonomies
 categories:
   - "Web Design"
+  - "programming"
 tags:
-  - "Web Design"
   - "Hugo"
+  
   
 # post type
 type: "post"

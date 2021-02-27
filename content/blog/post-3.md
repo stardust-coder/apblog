@@ -11,10 +11,12 @@ description: "this is meta description"
 
 # taxonomies
 categories: 
-  - "class"
+  - "lectures"
+  - "math"
+  - "computer science"
 tags:
   - "algorithm"
-  - "computer science"
+  
   
 # post type
 type: "post"
