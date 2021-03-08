@@ -4,17 +4,62 @@
   
   <url>
     <loc>https://stardust-coder.github.io/apblog/</loc>
-    <lastmod>2021-02-26T00:00:00+00:00</lastmod>
+    <lastmod>2021-03-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://stardust-coder.github.io/apblog/categories/</loc>
-    <lastmod>2021-02-26T00:00:00+00:00</lastmod>
+    <lastmod>2021-03-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://stardust-coder.github.io/apblog/categories/glp/</loc>
+    <lastmod>2021-03-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://stardust-coder.github.io/apblog/blog/post-25/</loc>
+    <lastmod>2021-03-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://stardust-coder.github.io/apblog/categories/lectures/</loc>
+    <lastmod>2021-03-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://stardust-coder.github.io/apblog/blog/post-26/</loc>
+    <lastmod>2021-03-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://stardust-coder.github.io/apblog/tags/nlp/</loc>
-    <lastmod>2021-02-26T00:00:00+00:00</lastmod>
+    <lastmod>2021-03-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://stardust-coder.github.io/apblog/tags/sustainability/</loc>
+    <lastmod>2021-03-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://stardust-coder.github.io/apblog/tags/</loc>
+    <lastmod>2021-03-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://stardust-coder.github.io/apblog/categories/math/</loc>
+    <lastmod>2021-02-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://stardust-coder.github.io/apblog/tags/optimization/</loc>
+    <lastmod>2021-02-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://stardust-coder.github.io/apblog/blog/post-24/</loc>
+    <lastmod>2021-02-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -33,7 +78,7 @@
   </url>
   
   <url>
-    <loc>https://stardust-coder.github.io/apblog/tags/</loc>
+    <loc>https://stardust-coder.github.io/apblog/categories/tutorial/</loc>
     <lastmod>2021-02-26T00:00:00+00:00</lastmod>
   </url>
   
@@ -93,16 +138,6 @@
   </url>
   
   <url>
-    <loc>https://stardust-coder.github.io/apblog/categories/lectures/</loc>
-    <lastmod>2021-02-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://stardust-coder.github.io/apblog/categories/math/</loc>
-    <lastmod>2021-02-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://stardust-coder.github.io/apblog/blog/post-13/</loc>
     <lastmod>2021-02-11T00:00:00+00:00</lastmod>
   </url>
@@ -120,11 +155,6 @@
   <url>
     <loc>https://stardust-coder.github.io/apblog/blog/post-11/</loc>
     <lastmod>2021-02-08T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://stardust-coder.github.io/apblog/tags/optimization/</loc>
-    <lastmod>2021-01-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -149,11 +179,6 @@
   
   <url>
     <loc>https://stardust-coder.github.io/apblog/tags/flutter/</loc>
-    <lastmod>2021-01-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://stardust-coder.github.io/apblog/categories/tutorial/</loc>
     <lastmod>2021-01-10T00:00:00+00:00</lastmod>
   </url>
   

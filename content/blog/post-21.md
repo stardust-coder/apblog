@@ -11,7 +11,8 @@ description: "this is meta description"
 
 # taxonomies
 categories:
-  - "programming"   
+  - "programming" 
+  - "tutorial"  
 
 tags:
   - "swift"

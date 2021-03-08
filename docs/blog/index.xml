@@ -8,6 +8,40 @@
     <language>ja</language>
     <lastBuildDate>Tue, 29 Oct 2019 13:49:23 +0600</lastBuildDate><atom:link href="https://stardust-coder.github.io/apblog/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>GLPフィールドワークがなくなって・・・</title>
+      <link>https://stardust-coder.github.io/apblog/blog/post-25/</link>
+      <pubDate>Fri, 05 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://stardust-coder.github.io/apblog/blog/post-25/</guid>
+      <description>５日間のオンラインSustainability合宿 with sure-co@Indonesia
+FGD Social entrepreneurship
+Energy + Waste Group Assignment STEP1 Brainstorming Brainstorm and write out visions as a social entrepreneur on the JamBoard</description>
+    </item>
+    
+    <item>
+      <title>Low Resource Text Classification with ULMFit and Backtranslation</title>
+      <link>https://stardust-coder.github.io/apblog/blog/post-26/</link>
+      <pubDate>Fri, 05 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://stardust-coder.github.io/apblog/blog/post-26/</guid>
+      <description>AWD-LSTM(ASGD Weighte-Dropped LSTM) ・Drop Connect ・Average-SGD(更新時に前回の重みではなく、前のT回分の重みの平均を使う)
+LSTMの定式化 Understanding LSTM Networksという2015年の記事を読んでLSTMをunderstandしていく。</description>
+    </item>
+    
+    <item>
+      <title>最適化手法のベンチマーク</title>
+      <link>https://stardust-coder.github.io/apblog/blog/post-24/</link>
+      <pubDate>Sat, 27 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://stardust-coder.github.io/apblog/blog/post-24/</guid>
+      <description>とある本 を読んでいて見つけた。
+最適化手法のベンチマーク（その提案した手法がどれくらい優れているのかを測る基準）となる有名関数があるらしい。 ググってみるとこれ自体分野として確立していそう、ふむふむ。
+Wikipediaに一覧としてまとまっていた。
+Test Functions for optimization
+めちゃあるじゃん、しかも3Dプロットと定義域と最適解付き。</description>
+    </item>
+    
+    <item>
       <title>Swiftでアニメーション</title>
       <link>https://stardust-coder.github.io/apblog/blog/post-21/</link>
       <pubDate>Fri, 26 Feb 2021 00:00:00 +0000</pubDate>
