@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>event on AP BLOG</title>
+    <link>https://stardust-coder.github.io/apblog/categories/event/</link>
+    <description>Recent content in event on AP BLOG</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Thu, 18 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://stardust-coder.github.io/apblog/categories/event/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>NLP2021 2〜4日目！！！</title>
+      <link>https://stardust-coder.github.io/apblog/blog/post-30/</link>
+      <pubDate>Thu, 18 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://stardust-coder.github.io/apblog/blog/post-30/</guid>
+      <description>A-1 セッション 埋め込み表現 A1-1 種差別バイアス やったこと ヒト文 He/She is 〜 who is [MASKED].</description>
+    </item>
+    
+  </channel>
+</rss>

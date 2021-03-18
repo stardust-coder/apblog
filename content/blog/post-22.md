@@ -11,9 +11,10 @@ description: "this is meta description"
 
 # taxonomies
 categories: 
+  - "nlp"
 
 tags:
-  - "nlp"
+  
   
   
 # post type

@@ -10,10 +10,11 @@ image: "images/featured-post/post-2.jpg"
 description: "this is meta description"
 
 # taxonomies
-categories: 
-
-tags:
+categories:  
   - "nlp"  
+tags:
+  - "abci"
+  
   
 # post type
 type: "post"

@@ -10,10 +10,11 @@ image: "images/featured-post/post-2.jpg"
 description: "this is meta description"
 
 # taxonomies
-categories: 
+categories:
+  - "nlp"  
 
 tags:
-  - "nlp"  
+  
   
 # post type
 type: "post"
@@ -26,7 +27,13 @@ type: "post"
 言わずと知れたグーグル翻訳
 
 API: URLでいけた。
+
 Pythonとかで使える。
+```
+pip install googletrans
+```
+でもちらほら不具合がある模様。
+
 
 ## DeepL
 

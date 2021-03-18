@@ -11,13 +11,22 @@ description: "this is meta description"
 
 # taxonomies
 categories: 
+  - "nlp"
 
 tags:
-  - "nlp"
 
 # post type
 type: "post"
 ---
+
+人生初の論文解説発表〜  
+これから先、輪講もろもろでこうゆうのやってくことになるのかな...  
+英語で準備していたけど直前に急に日本語でいいよということに！
+
+# 読んだ論文
+Low Resource Text Classification with ULMFit and Backtranslation[2019]
+
+# 登場用語解説メモ
 
 ### AWD-LSTM(ASGD Weighte-Dropped LSTM)
 ・Drop Connect
@@ -42,9 +51,6 @@ type: "post"
 * CELL STATE (a line running through the top of the diagram)
 * GATES
   - FORGET GATE ($h_{t-1}$, $x_t$ -> [0,1])
-
-
-
 
 ### ULMFit
 #### テクニック
@@ -92,3 +98,4 @@ $$target = W · [X−1, X[0], avg(X), max(X), min(X), len(X))]$$
 
 where X is a vector whose elements are the model predicted sentiment of each sentence. We use L1
 regularization to get force irrelevant features coefficients to zero.
+

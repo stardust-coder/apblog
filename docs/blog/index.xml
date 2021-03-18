@@ -8,6 +8,38 @@
     <language>ja</language>
     <lastBuildDate>Tue, 29 Oct 2019 13:49:23 +0600</lastBuildDate><atom:link href="https://stardust-coder.github.io/apblog/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>NLP2021 2〜4日目！！！</title>
+      <link>https://stardust-coder.github.io/apblog/blog/post-30/</link>
+      <pubDate>Thu, 18 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://stardust-coder.github.io/apblog/blog/post-30/</guid>
+      <description>A-1 セッション 埋め込み表現 A1-1 種差別バイアス やったこと ヒト文 He/She is 〜 who is [MASKED].</description>
+    </item>
+    
+    <item>
+      <title>Eriksonメモ</title>
+      <link>https://stardust-coder.github.io/apblog/blog/post-28/</link>
+      <pubDate>Thu, 11 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://stardust-coder.github.io/apblog/blog/post-28/</guid>
+      <description>少し毛色の違う日記。
+Erikson だれやねん 自分に欠けているものはアイデンティティっぽいので、調べてみる。
+アイデンティティの提唱者。アメリカの発達心理学者。米国で最も影響力のあった精神分析家の1人らしい。（Wikipediaより） エリクソン提唱の発達課題 13-19才 私は誰か？誰でいられるか？（社会的関係、学業）
+成功すると同一性、失敗すると同一性の拡散
+20-39才 愛することが出来るか？（仕事、恋愛、育児）</description>
+    </item>
+    
+    <item>
+      <title>HuggingFace の Transformers を使う</title>
+      <link>https://stardust-coder.github.io/apblog/blog/post-27/</link>
+      <pubDate>Mon, 08 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://stardust-coder.github.io/apblog/blog/post-27/</guid>
+      <description>HuggingFace Transformers npakaさんのnote にいろいろ書いてある。
+Autoregressive models  古典的な言語モデルでpretrain 一連のトークンに続くトークンを予測 得意なタスクは「テキスト生成」 GPTたち, Transformer-XL, XLNet  Autoencoding models  入力トークンを破損させ、再構築させることでpretrain 通常分全体の双方向表現を構築 得意なタスクは「テキスト分類」「トークン分類」 BERT系, XLM, ELECTRA, Longformer  Seq2seq models  sequence to sequence の問題に変換する 得意なタスクは「翻訳」「要約」「QA」 Transformer, BART, MarianMT, T5  Multimodal models  テキスト入力を画像などと混合し、与えられたタスクに特化する 「分類」のためにのみ機能 MMBT  Retrieval-based models  学習と推論の間に、文書検索を使用。 Dense Passage Retrieval  質問エンコーダ: 質問をベクトルとしてエンコード。 コンテキストエンコーダ : コンテキストをベクトルとしてエンコード。 リーダー: 検索されたコンテキスト内の質問の答えを、関連性スコアとともに抽出。    BlendorBotで遊んでみる pip install transformers でインストールしておく。</description>
+    </item>
+    
+    <item>
       <title>GLPフィールドワークがなくなって・・・</title>
       <link>https://stardust-coder.github.io/apblog/blog/post-25/</link>
       <pubDate>Fri, 05 Mar 2021 00:00:00 +0000</pubDate>
@@ -24,8 +56,10 @@ Energy + Waste Group Assignment STEP1 Brainstorming Brainstorm and write out vis
       <pubDate>Fri, 05 Mar 2021 00:00:00 +0000</pubDate>
       
       <guid>https://stardust-coder.github.io/apblog/blog/post-26/</guid>
-      <description>AWD-LSTM(ASGD Weighte-Dropped LSTM) ・Drop Connect ・Average-SGD(更新時に前回の重みではなく、前のT回分の重みの平均を使う)
-LSTMの定式化 Understanding LSTM Networksという2015年の記事を読んでLSTMをunderstandしていく。</description>
+      <description>人生初の論文解説発表〜
+これから先、輪講もろもろでこうゆうのやってくことになるのかな&amp;hellip;
+英語で準備していたけど直前に急に日本語でいいよということに！
+読んだ論文 Low Resource Text Classification with ULMFit and Backtranslation[2019]</description>
     </item>
     
     <item>
@@ -104,7 +138,8 @@ class ViewController: UIViewController { var mySession : AVCaptureSession!</desc
       <pubDate>Wed, 24 Feb 2021 00:00:00 +0000</pubDate>
       
       <guid>https://stardust-coder.github.io/apblog/blog/post-17/</guid>
-      <description>文書間距離（類似度） 文書をベクトル化し、ベクトル空間上でcos類似度を計算する  分散表現の加重平均をとる cos類似度 実用的  単語の分散表現をベクトル空間にマッピングし、ベクトル空間上での単語群間の距離を計算  EMD -&amp;gt; WMD -&amp;gt; WRD WMD・・・単語単位で考える。変換するときのコストの総和が高い方が意味が離れているとする。直感的！gensimにメソッドがあるので実装が簡単。 WRD・・・単語の分散表現を超球面上に射影 論文  &amp;lt;= 発送は1つめのと似てないですか？</description>
+      <description>文書間距離（類似度） 方針は大きく２つ！
+文書をベクトル化し、ベクトル空間上でcos類似度を計算する  分散表現の加重平均をとる cos類似度 実用的  単語の分散表現をベクトル空間にマッピングし、ベクトル空間上での単語群間の距離を計算  EMD -&amp;gt; WMD -&amp;gt; WRD WMD・・・単語単位で考える。変換するときのコストの総和が高い方が意味が離れているとする。直感的！gensimにメソッドがあるので実装が簡単。 WRD・・・単語の分散表現を超球面上に射影 論文</description>
     </item>
     
     <item>
@@ -114,8 +149,9 @@ class ViewController: UIViewController { var mySession : AVCaptureSession!</desc
       
       <guid>https://stardust-coder.github.io/apblog/blog/post-18/</guid>
       <description>API Google Translate 言わずと知れたグーグル翻訳
-API: URLでいけた。 Pythonとかで使える。
-DeepL API: DeepL Pro</description>
+API: URLでいけた。
+Pythonとかで使える。
+pip install googletrans でもちらほら不具合がある模様。</description>
     </item>
     
     <item>

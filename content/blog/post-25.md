@@ -12,7 +12,7 @@ description: "this is meta description"
 # taxonomies
 categories: 
   - "lectures"
-  - "GLP"
+  - "Glp"
 
 tags:
   - "sustainability"

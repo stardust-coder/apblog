@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>nlp on AP BLOG</title>
+    <link>https://stardust-coder.github.io/apblog/categories/nlp/</link>
+    <description>Recent content in nlp on AP BLOG</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Fri, 05 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://stardust-coder.github.io/apblog/categories/nlp/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Low Resource Text Classification with ULMFit and Backtranslation</title>
+      <link>https://stardust-coder.github.io/apblog/blog/post-26/</link>
+      <pubDate>Fri, 05 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://stardust-coder.github.io/apblog/blog/post-26/</guid>
+      <description>人生初の論文解説発表〜
+これから先、輪講もろもろでこうゆうのやってくことになるのかな&amp;hellip;
+英語で準備していたけど直前に急に日本語でいいよということに！
+読んだ論文 Low Resource Text Classification with ULMFit and Backtranslation[2019]</description>
+    </item>
+    
+    <item>
+      <title>国際会議まとめwikiをつくりたい</title>
+      <link>https://stardust-coder.github.io/apblog/blog/post-22/</link>
+      <pubDate>Fri, 26 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://stardust-coder.github.io/apblog/blog/post-22/</guid>
+      <description>参考記事 2018年の機械学種
+[上記より引用]
+NLP   ACL 最上位国際会議。3年周期。Student Research Workshopがある。</description>
+    </item>
+    
+    <item>
+      <title>ABCI 初挑戦</title>
+      <link>https://stardust-coder.github.io/apblog/blog/post-19/</link>
+      <pubDate>Thu, 25 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://stardust-coder.github.io/apblog/blog/post-19/</guid>
+      <description>SSH鍵とはなんぞや home直下の.sshディレクトリに鍵を保存。 configもいじっておくと楽ちん。
+ssh abci でログインできるようになった！！！
+登録する ターミナル 操作が基本！！ sftpコマンド ローカルで作ったコードとかファイルをget,putで移動すれば良いのか。ふむふむ。</description>
+    </item>
+    
+    <item>
+      <title>文章間距離メモ</title>
+      <link>https://stardust-coder.github.io/apblog/blog/post-17/</link>
+      <pubDate>Wed, 24 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://stardust-coder.github.io/apblog/blog/post-17/</guid>
+      <description>文書間距離（類似度） 方針は大きく２つ！
+文書をベクトル化し、ベクトル空間上でcos類似度を計算する  分散表現の加重平均をとる cos類似度 実用的  単語の分散表現をベクトル空間にマッピングし、ベクトル空間上での単語群間の距離を計算  EMD -&amp;gt; WMD -&amp;gt; WRD WMD・・・単語単位で考える。変換するときのコストの総和が高い方が意味が離れているとする。直感的！gensimにメソッドがあるので実装が簡単。 WRD・・・単語の分散表現を超球面上に射影 論文</description>
+    </item>
+    
+    <item>
+      <title>自動翻訳メモ</title>
+      <link>https://stardust-coder.github.io/apblog/blog/post-18/</link>
+      <pubDate>Wed, 24 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://stardust-coder.github.io/apblog/blog/post-18/</guid>
+      <description>API Google Translate 言わずと知れたグーグル翻訳
+API: URLでいけた。
+Pythonとかで使える。
+pip install googletrans でもちらほら不具合がある模様。</description>
+    </item>
+    
+  </channel>
+</rss>
